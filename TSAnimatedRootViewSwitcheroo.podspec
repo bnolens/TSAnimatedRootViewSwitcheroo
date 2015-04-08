@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.author       = { 'Tim Shadel' => 'github@timshadel.com' }
   s.ios.deployment_target = "7.0"
   s.source       = { :git => "https://github.com/timshadel/TSAnimatedRootViewSwitcheroo.git", :tag => s.version.to_s }
-  s.source_files = 'TSAnimatedRootViewSwitcheroo.[mh]'
-  s.public_header_files = 'TSAnimatedRootViewSwitcheroo.h'
+  s.source_files = 'TSAnimatedRootViewSwitcher.[mh]'
+  s.public_header_files = 'TSAnimatedRootViewSwitcher.h'
   s.requires_arc = true
 end
